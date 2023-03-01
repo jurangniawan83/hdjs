@@ -25,9 +25,9 @@ print("User Created and Configured")
 import os
 import subprocess
 
-CRP = 'DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AWtgzh5YgKnkifzxr2NoFoXqB_YkMtCB22BJ6vM7PSKz1TPL2A9S2yGgPmATRAtq8dsDPA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)'
+CRP = ''
 
-Pin = 123456 #@param {type: "integer"}
+Pin = 123456 
 
 
 class CRD:
